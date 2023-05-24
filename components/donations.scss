@@ -1,0 +1,8 @@
+.wp-block-jetpack-donations {
+  .donations__nav-item.is-active {
+    background: $color-primary !important;
+  }
+  .donations__amount.is-selected {
+    box-shadow: $box-shadow-input-focus !important;
+  }
+}

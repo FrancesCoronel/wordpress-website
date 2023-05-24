@@ -1,0 +1,60 @@
+.widget_mailpoet_form {
+  .mailpoet_text {
+    padding: 1.1em 1.44em;
+    height: 60px;
+  }
+
+  .mailpoet_paragraph {
+    margin-top: $spacing-1 !important;
+  }
+
+  .mailpoet_form_paragraph a:hover,
+  .mailpoet_form_paragraph a:focus {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+
+  .mailpoet_form_columns.mailpoet_paragraph {
+    margin-top: $spacing-0 !important;
+  }
+
+  .mailpoet_submit {
+    color: $color-white !important;
+    padding: 1.1em 1.44em;
+    height: 60px;
+    font-family: $font-family-bold;
+  }
+
+  .mailpoet_validate_success,
+  .mailpoet_validate_error {
+    background-color: $color-white;
+    padding: $spacing-half;
+    border-radius: $border-radius-default;
+  }
+
+  .mailpoet_validate_success {
+    color: $color-green;
+  }
+
+  .mailpoet_validate_error {
+    color: $color-red;
+  }
+
+  @media screen and (max-width: $breakpoint-tablet) {
+    .mailpoet_form .mailpoet-heading {
+      font-size: 2.8rem !important;
+    }
+  }
+
+  @media only screen and (max-width: $breakpoint-mobile) {
+    .mailpoet_form_column > .mailpoet_paragraph {
+      margin: $spacing-0;
+    }
+
+    #mailpoet_form_1
+      .mailpoet_form_column:last-child
+      .mailpoet_paragraph:last-child {
+      margin-top: $spacing-0 !important;
+    }
+  }
+}

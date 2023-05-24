@@ -1,0 +1,29 @@
+$spacing-0: 0;
+$spacing-half: 0.5em;
+$spacing-1: 1em;
+$spacing-2: 2em;
+$spacing-3: 3em;
+$spacing-4: 4em;
+$spacing-8: 8em;
+
+$font-family-light: "latina-light", "Work Sans", sans-serif !important;
+$font-family-bold: "latina-bold", "Work Sans", sans-serif !important;
+
+$color-primary: #253137;
+$color-secondary: #dacec8;
+$color-white: #ffffff;
+$color-black: #000;
+$color-gray: #6d6d6d;
+$color-green: #3e8914;
+$color-red: #9e2b25;
+
+$border-radius-default: 8px;
+
+$box-shadow-light: 0 0 5px rgba(0, 0, 0, 0.1);
+$box-shadow-heavy: 0 0 20px rgba(0, 0, 0, 0.2);
+$box-shadow-input-focus: 0 0 0 1px $color-white, 0 0 0 3px $color-primary;
+
+$breakpoint-mobile: 425px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-desktop-large: 1440px;

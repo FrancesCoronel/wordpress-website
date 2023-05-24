@@ -1,0 +1,229 @@
+/** MARGIN & PADDING **/
+
+.primary-menu > li {
+  margin: 1.5em 0 0 1.5em;
+}
+
+.stats-counter {
+  margin-top: $spacing-8;
+}
+
+.wpnbha.has-more-button button {
+  margin-top: $spacing-2;
+}
+
+.wp-block-button.aligncenter:not(:last-child),
+.wp-block-buttons {
+  margin-bottom: $spacing-0;
+}
+
+.wp-block-columns {
+  .wp-block-column
+    > .wp-block-image:not(.alignwide):not(.alignfull):not(:last-child),
+  .wp-block-quote {
+    margin-bottom: $spacing-0;
+  }
+}
+
+.wp-block-button {
+  .wp-block-button__link.is-style-outline,
+  &.is-style-outline > .wp-block-button__link {
+    padding: calc(1.1em - 0.2em) calc(1.44em - 0.2em);
+  }
+}
+
+.singular .entry-header {
+  padding: $spacing-4 0;
+
+  @media only screen and (max-width: $breakpoint-tablet) {
+    padding: $spacing-2 0;
+  }
+}
+
+#site-content .post-inner {
+  padding-top: $spacing-4;
+
+  @media only screen and (max-width: $breakpoint-tablet) {
+    padding-top: $spacing-2;
+  }
+}
+
+.wp-block-cover.alignfull,
+.wp-block-group.has-background.alignfull {
+  padding-top: $spacing-1;
+}
+
+.featured-media .wp-caption-text {
+  padding-bottom: 2em;
+}
+
+/** BORDER RADIUS **/
+
+.br-8,
+.contact-form textarea,
+.featured-media img,
+.featured-media-inner.section-inner,
+.homepage-cta-block,
+.infinite-scroll #site-content #infinite-handle span button,
+.wc_payment_method .payment_box,
+.woocommerce form .form-row .input-text img,
+.woocommerce-checkout button,
+.woocommerce-page form .form-row .input-text img,
+.wp-block-button__link,
+.wp-block-column .contact-form input,
+.wp-block-image,
+.wp-block-image img,
+.wp-block-jetpack-instagram-gallery__grid
+  .wp-block-jetpack-instagram-gallery__grid-post
+  img,
+.wp-block-jetpack-mailchimp .wp-block-jetpack-mailchimp_notification,
+.wp-block-jetpack-revue__form input,
+.wpnbha .post-thumbnail,
+.wpnbha .post-thumbnail img,
+.wpnbha .post-thumbnail > img,
+a.button.wc-backward,
+a.woocommerce-button,
+button,
+figure.wp-block-coblocks-gallery-masonry.masonry-grid figure.wp-block-image img,
+.entry-content iframe,
+img.jp-relatedposts-post-img,
+input[type="email"],
+ul.products li.product .button,
+input.mailpoet_text,
+input.mailpoet_submit {
+  border-radius: $border-radius-default;
+}
+
+@media only screen and (max-width: $breakpoint-desktop) {
+  .featured-media img {
+    border-radius: $spacing-0;
+  }
+}
+
+/** DISPLAY **/
+
+.wp-block-newspack-blocks-homepage-articles .sharedaddy,
+.header-inner .toggle-text,
+.comments-wrapper.section-inner,
+.tw-menu-burger .nav-toggle svg {
+  display: none !important;
+}
+
+/** EMOJI **/
+
+img.emoji {
+  display: inline-block;
+  height: $spacing-1;
+  margin: 0 0.05em 0 0.1em;
+  vertical-align: -0.1em;
+  width: $spacing-1;
+}
+
+.sd-content ul li a.sd-button:before {
+  font-size: normal 40px/1 social-logos;
+}
+
+/** BOX SHADOW **/
+
+.featured-media img {
+  box-shadow: $box-shadow-heavy;
+}
+
+.wp-block-jetpack-instagram-gallery.wp-block-jetpack-instagram-gallery__grid.wp-block-jetpack-instagram-gallery__grid-columns-3.is-stacked-on-mobile
+  img,
+.wp-block-image img,
+.wpnbha .post-thumbnail img,
+.entry-content iframe {
+  box-shadow: $box-shadow-light;
+}
+
+.is-layout-flow.wp-block-column.is-vertically-aligned-center
+  .wp-block-image
+  img,
+.widget-content .wp-block-image img {
+  box-shadow: none !important;
+}
+
+/** FONT WEIGHT **/
+
+h2.widget-title.subheading.heading-size-3 {
+  font-weight: 900;
+}
+
+.entry-content a:hover,
+.entry-content a:focus {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+/** CUSTOM **/
+
+iframe {
+  max-height: 500px;
+  overflow: scroll;
+}
+
+iframe[data-tweet-id] {
+  max-height: unset;
+}
+
+.color-circle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px !important;
+}
+
+.last-updated-date,
+.stats-counter {
+  color: $color-gray;
+  font-family: $font-family-light;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.featured-media img {
+  max-width: fit-content;
+}
+
+#bmc-wbtn {
+  height: 25px !important;
+  width: 25px !important;
+
+  img {
+    height: 16px !important;
+    width: 16px !important;
+  }
+}
+
+.jetpack-testimonial-shortcode {
+  display: grid;
+  grid-template-columns: 100%;
+
+  @media only screen and (min-width: $breakpoint-desktop-large) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+  }
+
+  .testimonial-entry {
+    box-shadow: $box-shadow-light;
+    border: 2px solid $color-primary;
+    padding: $spacing-2;
+    border-radius: $border-radius-default;
+    margin: 0 0 $spacing-2;
+
+    .testimonial-entry-content {
+      margin-top: $spacing-0;
+      margin-bottom: $spacing-1;
+    }
+  }
+}
+
+.simple-banner-text {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

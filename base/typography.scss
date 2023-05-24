@@ -1,0 +1,41 @@
+*,
+.author-bio,
+.comment-footer-meta,
+.comment-meta,
+.comment-respond p.comment-awaiting-moderation,
+.comment-respond p.comment-notes,
+.comment-respond p.logged-in-as,
+.entry-categories,
+.entry-content,
+.footer-menu,
+.intro-text,
+.pagination,
+.post-meta,
+.primary-menu li.menu-button > a,
+.toggle .toggle-text,
+.widget:not(.widget-text),
+.wp-block-archives,
+.wp-block-button__link,
+.wp-block-categories,
+.wp-block-file,
+.wp-block-latest-comments,
+.wp-block-latest-posts,
+.wp-block-pullquote .wp-block-quote .is-style-large,
+.wp-block-quote .is-style-tw-large-icon,
+.wp-caption-text,
+#site-footer,
+cite,
+figcaption,
+input,
+label,
+select,
+textarea {
+  font-family: $font-family-light;
+}
+
+.button,
+.faux-button,
+.wp-block-file__button,
+button {
+  font-family: $font-family-bold;
+}

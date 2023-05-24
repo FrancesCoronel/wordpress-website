@@ -1,0 +1,14 @@
+/** RELATED POSTS **/
+
+#jp-relatedposts {
+  .jp-relatedposts-post-title {
+    margin-top: $spacing-1 !important;
+  }
+
+  .jp-relatedposts-post {
+    @media only screen and (max-width: $breakpoint-tablet) {
+      width: 100%;
+      padding: 0;
+    }
+  }
+}
